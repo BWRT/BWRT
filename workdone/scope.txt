@@ -1,0 +1,8 @@
+Okay guys we have our first campaign, this one isn't so much of a RT campaign as it is a pentest.
+So our scope is this api, our client wants to know if his api is vulnerable to any exploitation that
+may lead to RCE (Remote Command Execution). So our goal is to set up a server running "couchdb" which would 
+recieve data from the api regarding where a user browsing, how long they were there, how many tabs they have open
+etc. With that we're trying to force the api to send malicous code to the server which would then process the code 
+to send a remote shell back to our attacker ip's. If you need any more details LMK.
+
+- Tepi
